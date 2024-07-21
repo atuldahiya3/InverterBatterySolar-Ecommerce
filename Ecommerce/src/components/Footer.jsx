@@ -35,6 +35,23 @@ function Footer() {
             </div>
             <div>
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
+                Jobs
+              </h2>
+              <ul className="text-gray-500 font-medium">
+                <li className="mb-4">
+                  <Link to="" className="hover:underline">
+                    Store Manager
+                  </Link>
+                </li>
+                <li>
+                  <Link to="" className="hover:underline">
+                    Sales &amp; Marketing
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
                 Quick Contact
               </h2>
               <ul className="text-gray-500 font-medium">
@@ -52,30 +69,13 @@ function Footer() {
                     <p>Mon-Fri:10am - 7pm</p>
                   </li>
                 <li>
-                  <Link to="" className="hover:underline items-start">
+                  <Link to="/" className="hover:underline items-start">
                     Phone: +91-8930067770
                   </Link>
                 </li>
                 <li>
-                  <Link to="" className="hover:underline">
+                  <Link to="/" className="hover:underline">
                     Email: anssnpt@yahoo.com
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
-                Jobs
-              </h2>
-              <ul className="text-gray-500 font-medium">
-                <li className="mb-4">
-                  <Link to="" className="hover:underline">
-                    Store Manager
-                  </Link>
-                </li>
-                <li>
-                  <Link to="" className="hover:underline">
-                    Sales &amp; Marketing
                   </Link>
                 </li>
               </ul>
